@@ -139,5 +139,23 @@
   },
   "engines": {
     "node": ">=0.10"
+  },
+  "overrides": {
+    "airbnb-prop-types@^2.16.0": {
+      "react": "^18.0.0",
+      "react-dom": "^18.0.0"
+    },
+    "enzyme-adapter-react-helper@^1.3.9": {
+      "react": "^18.0.0",
+      "react-dom": "^18.0.0"
+    },
+    "react-with-direction@^1.4.0": {
+      "react": "^18.0.0",
+      "react-dom": "^18.0.0"
+    },
+    "react-with-styles-interface-css-compiler@^2.2.0": {
+      "react": "^18.0.0",
+      "react-dom": "^18.0.0"
+    }
   }
 }
